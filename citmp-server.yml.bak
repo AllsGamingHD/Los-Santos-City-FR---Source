@@ -1,0 +1,93 @@
+ListenPort: 30120
+
+PreParseResources:
+    - mapmanager
+
+AutoStartResources:
+    - chat
+    - spawnmanager
+    - fivem-map-skater
+    - baseevents
+    - rconlog
+    - hardcap # prevents too many players from joining
+    - es_freeroam
+    - essentialmode
+    - es_admin
+    - gcidentity
+    - gcInteraction
+    - paycheck
+    - jobs-system
+    - banking
+    - menuuser
+    - menuint
+    - MissionText
+    - vdk_recolt
+    - vdk_inventory
+    - es_weashop
+    - skin_customization
+    - ply_garages
+    - ply_prefecture
+    - police
+    - mysql-async
+    - esx_moneywash
+    - handsup
+    - lastpostodb
+    - lscustoms
+    - emergency
+    - nocarjack
+    - location
+    - carsmod
+    - loadingscreen
+    - foodhud
+    - nobunnyhop
+    - gb_foodshops
+    - garage
+    - lux_vehcontrol
+    - vehcontrol
+    - pNotify
+    - NeverWanted
+    - afkkick
+    - brakelights
+    - CarCleanUp
+    - carhud
+    - coloredhud
+    - crouch
+    - DeathJoinLeaveMsg
+    - es_holdup
+    - es_miscstores
+    - HospitalHeal
+    - InteractSound
+    - NoDriveBy
+    - outlawalert
+    - pausemenu
+    - PlayerDot
+    - voicechat
+    - wastedscreen
+    - watermark
+    - privatemessage
+    # do change
+RconPassword: lovely
+
+# configure this, please
+Hostname: AllsGamingHD - Dev
+
+# don't change this, it'll cause your server to be unlisted
+Game: GTA5
+
+PlatformServer: updater.fivereborn.com
+
+ScriptDebug: true
+
+DebugLog: true
+
+# set to false to hide from the online server list
+Announce: true
+
+# set to false to require players to be signed in to Steam
+DisableAuth: true
+
+# set to true to disable local script hook plugins
+DisableScriptHook: true
+
+# set to the path of an icon to use in the server browser. it should be square.
+#ServerIcon: hello.png
